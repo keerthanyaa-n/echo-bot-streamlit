@@ -11,6 +11,7 @@ if 'thread_id' not in st.session_state:
 
 # Title
 st.title("Echo Bot with Console Logs")
+st.info(f"Thread ID: <{st.session_state['thread_id']}>")
 
 # Initialize chat history
 if "messages" not in st.session_state:
